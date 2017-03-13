@@ -1,0 +1,22 @@
+{
+  "name": "giphy-translate-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-router-dom": "^4.0.0-beta.8"
+  },
+  "devDependencies": {
+    "electron": "^1.6.3",
+    "react-scripts": "0.9.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "electron": "electron app/"
+  }
+}
